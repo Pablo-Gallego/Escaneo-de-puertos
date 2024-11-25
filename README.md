@@ -4,7 +4,7 @@ Por lo tanto, debe ser lanzada utilizando el usuario root.
 
 > [!NOTE]
 > El comando de inicio es el siguiente:
-> sudo /bin/bash <<RUTA>>/escaneo.sh
+> sudo /bin/bash (RUTA)/escaneo.sh
 
 Para garantizar su correcto funcionamiento, es indispensable contar con 
 las siguientes herramientas previamente instaladas:
