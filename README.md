@@ -1,7 +1,6 @@
-[links/LINKEDIN]: (https://www.linkedin.com/in/pablogallegomartinez/)
 # Herramienta de escaneo pasivo v1.0
-## Esta herramienta requiere permisos de administrador para su ejecución. 
-## Por lo tanto, debe ser lanzada utilizando el usuario root. 
+Esta herramienta requiere permisos de administrador para su ejecución. 
+Por lo tanto, debe ser lanzada utilizando el usuario root. 
 
 > [!NOTE]
 > El comando de inicio es el siguiente:
@@ -9,24 +8,24 @@
 
 Para garantizar su correcto funcionamiento, es indispensable contar con 
 las siguientes herramientas previamente instaladas:
--ping
--subfinder
--theHarvester
--xsltproc
+-ping <br>
+-subfinder <br>
+-theHarvester <br>
+-xsltproc <br>
 
 Para verificar la instalación de las herramientas, utilice los siguientes comandos:
-command -v ping / ping -v
-command -v subfinder / subfinder -v
-command -v theHarvester / theHarvester -v
-command -v xsltproc / xsltproc -v
+command -v ping / ping -v <br>
+command -v subfinder / subfinder -v <br>
+command -v theHarvester / theHarvester -v <br>
+command -v xsltproc / xsltproc -v <br>
 
 En caso de que alguna de estas herramientas no se encuentre instalada, 
-los siguientes comandos permitirán su instalación en sistemas basados en Debian/Ubuntu:
-**sudo apt update && sudo apt install -y iputils-ping xsltproc**
-Para instalación en el usuario local:
-    **-sudo apt install -y python3-pip**
-    **pip3 install subfinder theHarvester**
-Para todos los usuarios:
+los siguientes comandos permitirán su instalación en sistemas basados en Debian/Ubuntu: <br>
+**sudo apt update && sudo apt install -y iputils-ping xsltproc** <br>
+Para instalación en el usuario local: <br>
+    **-sudo apt install -y python3-pip** <br>
+    **pip3 install subfinder theHarvester** <br>
+Para todos los usuarios: <br>
     **-sudo apt install subfinder theHarvester**
 
 Para otras distribuciones de Linux es necesario usar los comandos pertinentes de instalación.
@@ -35,5 +34,5 @@ Adicionalmente, el archivo **transform.xsl debe estar ubicado en el mismo direct
 ya que es requerido para el procesamiento adecuado de los resultados generados.
 
 ## Desarrollado por:
-  **Pablo Gallego**
-### Contactame por [links/LINKEDIN]
+**Pablo Gallego**
+Contactame por [LINKEDIN](https://www.linkedin.com/in/pablogallegomartinez/)
