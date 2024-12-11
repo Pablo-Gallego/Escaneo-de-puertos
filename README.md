@@ -23,8 +23,7 @@ command -v theHarvester / theHarvester -v <br>
 command -v xsltproc /  xsltproc --version <br><br>
 
 En caso de que alguna de estas herramientas no se encuentre instalada, puedes usar el script instalador.sh 
-para instalar las herramientas en sistemas basados en debian. Las pruebas han sido realizadas en Ubuntu.
-Para otras distribuciones de Linux es necesario adaptar los comandos pertinentes de instalación. <br><br>
+para instalar las herramientas en sistemas basados en debian. Las pruebas han sido realizadas en Ubuntu y kali Linux. Para otras distribuciones de Linux es necesario adaptar los comandos pertinentes de instalación. <br><br>
 
 > [!NOTE]
 > El script instalador.sh **no configura** theHarvester ni subfinder, solo los instala para poder usarlos como el usuario root(recomendable), o en su defecto el usuario que ejecute el script:
